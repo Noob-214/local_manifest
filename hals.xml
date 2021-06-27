@@ -8,6 +8,7 @@
                 fetch="https://github.com/LineageOS" />
 
     # HALS
+    <remove-project name="platform_packages_resources_devicesettings" />
     <remove-project name="android_hardware_qcom_display" />
     <remove-project name="android_hardware_qcom_media" />
     <remove-project name="android_vendor_codeaurora_telephony" />
@@ -16,6 +17,6 @@
     <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" remote="jebiyeff" revision="caf-msm8996-r" clone-depth="1" />
     <project path="hardware/qcom-caf/msm8996/media" name="android_hardware_qcom_media" remote="jebiyeff" revision="caf-msm8996-r" clone-depth="1" />
     <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="wave" revision="r" clone-depth="1" />
-
+    <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="los" revision="lineage-18.1" />
 
 </manifest>
