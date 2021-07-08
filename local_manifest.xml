@@ -5,7 +5,7 @@
                 fetch="https://github.com/Noob-214" />
 
         <project path="device/xiaomi/ysl" name="device_xiaomi_ysl_4.9" remote="SandeepChahal" revision="xr" clone-depth="1" />
-        <project path="kernel/xiaomi/ysl" name="Logan_Ysl" remote="SandeepChahal" revision="LA.UM.9.6.2.r1-04700-89xx.0" clone-depth="1" />
+        <project path="kernel/xiaomi/ysl" name="Logan_Ysl" remote="SandeepChahal" revision="xr" clone-depth="1" />
         <project path="vendor/xiaomi/ysl" name="vendor_xiaomi_ysl" remote="SandeepChahal" revision="xr" clone-depth="1" />
 
 </manifest>
