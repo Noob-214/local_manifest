@@ -7,20 +7,14 @@
 
 
     # HALS
-    <remove-project name="vendor_xtended" />
-    <remove-project name="packages_apps_Settings" />
-    <remove-project name="packages_apps_Updater" />
     <remove-project name="android_hardware_qcom_display" />
     <remove-project name="android_hardware_qcom_media" />
     <remove-project name="android_vendor_codeaurora_telephony" />
     <remove-project name="android_hardware_qcom_audio" />
-    <project path="vendor/xtended" name="vendor_xtended" remote="SandeepChahal" revision="xr" clone-depth="1" />
-    <project path="packages/apps/Updater" name="packages_apps_Updater" remote="SandeepChahal" revision="xr" clone-depth="1" />
-    <project path="packages/apps/Settings" name="packages_apps_Settings" remote="SandeepChahal" revision="xr" clone-depth="1" />
     <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio" remote="los" revision="lineage-18.1-caf-msm8996" clone-depth="1" />
     <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" remote="los" revision="lineage-18.1-caf-msm8996" clone-depth="1" />
     <project path="hardware/qcom-caf/msm8996/media" name="android_hardware_qcom_media" remote="los" revision="lineage-18.1-caf-msm8996" clone-depth="1" />
-    <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="SandeepChahal" revision="r" clone-depth="1" />
+    <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony_msm89xx" remote="SandeepChahal" revision="r" clone-depth="1" />
  
 
 </manifest>
